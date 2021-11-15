@@ -1,6 +1,6 @@
 import './index.css'
 
-const Home = () => {
+function itemListContainer () {
     return(
         <div className="container-img">
             <p className="card">
@@ -10,4 +10,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default itemListContainer
