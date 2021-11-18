@@ -1,0 +1,56 @@
+
+.count-style{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 30px;
+    color: black;
+    border: none;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);    
+}
+
+.symbol-style{
+    font-size: 16px;
+    color: black;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.num-style{
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+    border: none;
+    text-decoration: none;
+}
+
+.button-style-add{
+    background-color: black;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+}
+
+.button-text{
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+.button-text:hover{
+    transition: 0.5s;
+    color: white;
+}
+
+.button-style-add:hover{
+    transition: 0.5s;
+    background-color: #ec1111;
+}
